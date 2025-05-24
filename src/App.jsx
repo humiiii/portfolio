@@ -3,6 +3,8 @@ import Hero from "./section/Hero";
 import Showcase from "./section/Showcase";
 import Navbar from "./components/Navbar";
 import Logo from "./section/Logo";
+import FeatureCards from "./section/FeatureCards";
+import ExperienceSection from "./section/ExperienceSection";
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <Hero />
       <Showcase />
       <Logo />
+      <FeatureCards />
+      <ExperienceSection />
     </>
   );
 };
