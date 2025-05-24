@@ -1,7 +1,6 @@
 import React from "react";
 import TitleHeader from "../components/TitleHeader";
-import { techStackIcons } from "../constants";
-import TechIcon from "../components/Models/TechModels/TechIcon";
+import { techStackImgs } from "../constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -42,15 +41,19 @@ const TechStack = () => {
           sub={"The Skills I Bring to the Table"}
         />
         <div className="tech-grid">
-          {techStackIcons.map((icon) => (
+          {techStackImgs.map((icon) => (
             <div
               key={icon.name}
               className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
             >
-              <div className="tech-card-animated-bg"></div>
+              {/* <div className="tech-card-animated-bg"></div> */}
               <div className="tech-card-content">
                 <div className="tech-icon-wrapper">
-                  <TechIcon model={icon} />
+                  <img
+                    src={icon.imgPath}
+                    alt={icon.name}
+                    className="hover:scale-50 transition-all duration-700"
+                  />
                 </div>
                 <div className="padding-x w-full">
                   <p className="text-xl">{icon.name}</p>
