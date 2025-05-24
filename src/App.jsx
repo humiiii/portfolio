@@ -8,6 +8,7 @@ import ExperienceSection from "./section/ExperienceSection";
 import TechStack from "./section/TechStack";
 import Testimonials from "./section/Testimonials";
 import Contact from "./section/Contact";
+import Footer from "./section/Footer";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <TechStack />
       <Testimonials />
       <Contact />
+      <Footer />
     </>
   );
 };
