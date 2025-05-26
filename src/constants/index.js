@@ -284,7 +284,7 @@ const socialImgs = [
   // },
   {
     name: "linkedin",
-    url: "www.linkedin.com/in/m-umaid-r",
+    url: "https://www.linkedin.com/in/m-umaid-r",
     imgPath: "/portfolio/images/linkedin.png",
   },
 ];
