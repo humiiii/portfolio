@@ -48,7 +48,7 @@ const ExperienceSection = () => {
       // Trigger the animation when the timeline is at the top of the screen
       // and end it when the timeline is at 70% down the screen
       scrollTrigger: {
-        markers: true,
+        // markers: true, //for debugging
         trigger: ".timeline",
         start: "top top",
         end: "70% center",
