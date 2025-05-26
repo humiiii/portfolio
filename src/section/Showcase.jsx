@@ -52,35 +52,35 @@ const Showcase = () => {
           {/* Left  */}
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
-              <img src="/portfolio/images/project1.png" alt="Ryde" />
+              <img src="/portfolio/images/intern.png" alt="AI 4 Bharat" />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides made Simple with a Powerful, User-Friendly app
-                called Ryde
+                Empowering Indian Languages with AI — My Internship at AI4Bharat
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                Contributed as an SDE Intern to real-world open-source projects
+                focused on Django, React, Next.js and modern AI tooling to make
+                technology more accessible across India.
               </p>
             </div>
           </div>
           {/* Right  */}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
-              <div className="image-wrapper bg-[#ffefdb]">
+              <div className="image-wrapper bg-[#E8E6F7]">
                 <img
-                  src="/portfolio/images/project2.png"
+                  src="/portfolio/images/aww1.png"
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>Library Management Platform</h2>
+              <h2>Cynthia Ugwu Portfolio Clone</h2>
             </div>
             <div className="project" ref={project3Ref}>
-              <div className="image-wrapper bg-[#ffe7db]">
-                <img src="/portfolio/images/project3.png" alt="YC Directory" />
+              <div className="image-wrapper bg-[#2D4D47]">
+                <img src="/portfolio/images/aww2.png" alt="YC Directory" />
               </div>
-              <h2>YC Directory - A Startup showcase App</h2>
+              <h2>Ochi Website Clone</h2>
             </div>
           </div>
         </div>

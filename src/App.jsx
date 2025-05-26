@@ -9,10 +9,23 @@ import TechStack from "./section/TechStack";
 import Testimonials from "./section/Testimonials";
 import Contact from "./section/Contact";
 import Footer from "./section/Footer";
+import { ToastContainer } from "react-toastify";
 
 const App = () => {
   return (
     <>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
       <Navbar />
       <Hero />
       <Showcase />

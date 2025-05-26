@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 
 import TitleHeader from "../components/TitleHeader";
 import ContactExperience from "../components/models/contact/ContactExperience";
@@ -24,16 +25,19 @@ const Contact = () => {
 
     try {
       await emailjs.sendForm(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_ygps5kv",
+        "template_ggsi0oq",
         formRef.current,
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "DE8uAKZMJeoNuxWIC"
       );
 
       // Reset form and stop loading
       setForm({ name: "", email: "", message: "" });
+      toast.success("Message sent successfully!");
     } catch (error) {
+      setForm({ name: "", email: "", message: "" });
       console.error("EmailJS Error:", error); // Optional: show toast
+      toast.error("Failed to send message. Please try again later!");
     } finally {
       setLoading(false); // Always stop loading, even on error
     }
