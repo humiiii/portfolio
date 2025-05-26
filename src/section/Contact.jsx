@@ -100,7 +100,10 @@ const Contact = () => {
                       {loading ? "Sending..." : "Send Message"}
                     </p>
                     <div className="arrow-wrapper">
-                      <img src="/images/job-application.png" alt="send mail" />
+                      <img
+                        src="/portfolio/images/job-application.png"
+                        alt="send mail"
+                      />
                     </div>
                   </div>
                 </button>
