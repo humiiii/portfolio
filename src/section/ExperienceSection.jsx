@@ -39,18 +39,30 @@ const ExperienceSection = () => {
 
     // Animate the timeline height as the user scrolls
     // The timeline height should scale down from 1 to 0 as the user scrolls up the screen
+
     gsap.to(".timeline", {
-      scaleY: 0,
+      // Set the origin of the animation to the bottom of the timeline
       transformOrigin: "bottom bottom",
+      // Animate the timeline height over 1 second
       ease: "power1.inOut",
+      // Trigger the animation when the timeline is at the top of the screen
+      // and end it when the timeline is at 70% down the screen
       scrollTrigger: {
+        markers: true,
         trigger: ".timeline",
-        start: "top center",
-        end: "bottom top", // Animate over the whole section
-        scrub: true, // Smooth, scroll-linked animation
-        toggleActions: "play reverse play reverse",
+        start: "top top",
+        end: "70% center",
+        // Update the animation as the user scrolls
+        onUpdate: (self) => {
+          // Scale the timeline height as the user scrolls
+          // from 1 to 0 as the user scrolls up the screen
+          gsap.to(".timeline", {
+            scaleY: 1 - self.progress,
+          });
+        },
       },
     });
+
     // Loop through each expText element and animate them in
     // as the user scrolls to each text element
     gsap.utils.toArray(".expText").forEach((text) => {
@@ -86,8 +98,8 @@ const ExperienceSection = () => {
     >
       <div className="w-full h-full md:px-20 px-5">
         <TitleHeader
-          title="Professional Work Experience"
-          sub="💼 My Career Overview"
+          title="Work Experience and Education"
+          sub="My Career Overview"
         />
         <div className="mt-32 relative">
           <div className="relative z-50 xl:space-y-32 space-y-10">
@@ -95,8 +107,8 @@ const ExperienceSection = () => {
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
                   <GlowCard card={card}>
-                    <div>
-                      <img src={card.imgPath} alt="exp-img" />
+                    <div className="">
+                      <img src={card.imgPath} alt="exp-img" className="h-8" />
                     </div>
                   </GlowCard>
                 </div>

@@ -167,48 +167,48 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/portfolio/images/exp1.png",
-    logoPath: "/portfolio/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+      "Umaid was a great addition to the team — thoughtful, reliable, and technically sharp. He helped ship features faster and made our development smoother with clean, maintainable code. Really appreciated having him on board.",
+    imgPath: "/portfolio/images/ai4bharat-logo.png",
+    logoPath: "/portfolio/images/ai4bharat.png",
+    title: "Full Stack Developer | IIT Madras",
+    date: "December 24 - July 25",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Pursued a Software Development Internship at AI4Bharat, building scalable web apps using React, Next.js, Django, and Git.",
+      "Developed responsive frontend components and improved performance by ~30% through code optimization and lazy loading.",
+      "Collaborated with cross-functional teams and integrated REST APIs, reducing backend response times by ~25%.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/portfolio/images/exp2.png",
-    logoPath: "/portfolio/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+      "Pursuing my Master’s and bachelor's at Cluster University Srinagar has been a transformative journey. The program not only strengthened my foundation in computer science but also encouraged critical thinking and real-world problem solving.",
+    imgPath: "/portfolio/images/cus-logo.png",
+    logoPath: "/portfolio/images/cus.png",
+    title: "MCA & BCA",
+    date: "2019 - 2025",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Built multiple academic and real-world projects during MCA & BCA, showcasing full-stack skills with React, Node.js, and MongoDB.",
+      "Collaborated on group software development assignments, emphasizing version control with Git and Agile practices.",
+      "Participated in coding workshops and tech events, consistently enhancing problem-solving and backend integration skills.",
     ],
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/portfolio/images/exp3.png",
-    logoPath: "/portfolio/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+      "My years at Tyndale Biscoe School instilled in me a strong sense of discipline, leadership, and teamwork — both inside the classroom and through outdoor activities like skiing, football, and cricket, which shaped my all-round growth and resilience.",
+    imgPath: "/portfolio/images/tbmes-logo.png",
+    logoPath: "/portfolio/images/tbmes.png",
+    title: "Tyndale Biscoe School",
+    date: "Till - 2018",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed leadership and team-building skills through competitive sports including football, cricket, and skiing.",
+      "Demonstrated academic commitment across diverse subjects with a focus on discipline and all-round excellence.",
+      "Participated in inter-school and inter-district tournaments, earning multiple accolades and fostering a competitive spirit.",
     ],
   },
 ];
 
 const expLogos = [
   {
-    name: "logo1",
+    name: "AI 4 Bharat",
     imgPath: "/portfolio/images/logo1.png",
   },
   {
@@ -267,24 +267,24 @@ const testimonials = [
 ];
 
 const socialImgs = [
-  {
-    name: "insta",
-    url: "https://www.instagram.com/",
-    imgPath: "/portfolio/images/insta.png",
-  },
-  {
-    name: "fb",
-    url: "https://www.facebook.com/",
-    imgPath: "/portfolio/images/fb.png",
-  },
-  {
-    name: "x",
-    url: "https://www.x.com/",
-    imgPath: "/portfolio/images/x.png",
-  },
+  // {
+  //   name: "insta",
+  //   url: "https://www.instagram.com/",
+  //   imgPath: "/portfolio/images/insta.png",
+  // },
+  // {
+  //   name: "fb",
+  //   url: "https://www.facebook.com/",
+  //   imgPath: "/portfolio/images/fb.png",
+  // },
+  // {
+  //   name: "x",
+  //   url: "https://www.x.com/",
+  //   imgPath: "/portfolio/images/x.png",
+  // },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "www.linkedin.com/in/m-umaid-r",
     imgPath: "/portfolio/images/linkedin.png",
   },
 ];
