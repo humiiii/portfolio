@@ -1,12 +1,52 @@
-# React + Vite
+# 3D Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive 3D portfolio website built with React and Vite. Showcase your projects, skills, and experience with engaging 3D visuals and smooth animations.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interactive 3D elements and animations
+- Responsive design for all devices
+- Project showcase section
+- About and contact sections
+- Fast development with Vite and React
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/humiiii/portfolio
+   cd portfolio
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Technologies Used
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Three.js](https://threejs.org/) (for 3D graphics)
+- [EmailJS](https://www.emailjs.com/) (for contact form)
+
+## Folder Structure
+
+- `/src` - Main source code
+- `/public` - Static assets
+
+## Customization
+
+- Update your personal information and projects in the relevant components.
+- Customize 3D models and styles as needed.
+
+## License
+
+This project is for personal portfolio use. Feel free to fork and modify for your own portfolio.
+
+---
+
+> Inspired by and built with guidance from [JSMastery](https://www.jsmastery.pro/).

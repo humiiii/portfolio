@@ -223,18 +223,18 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Saira Bano",
+    mentions: "@saiii",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/portfolio/images/client1.png",
+      "He is the embodiment of brilliance, and the epitome of perfection, possessing a sharp intellect and a keen eye for detail. Driven by a quest for excellence, he consistently strives for perfection in everything he does. His smart, analytical approach sets him apart and makes him a truly remarkable individual. Working with him has been a privilege and a rewarding experience. Wishing him all the best for the milestones that lie ahead.",
+    imgPath: "/portfolio/images/saira.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Huzaif Wani",
+    mentions: "@huzaif",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/portfolio/images/client3.png",
+      "His deep understanding of our requirements and keen attention to detail resulted in a website that not only met but far exceeded our expectations. His expertise in both frontend and backend development is truly impressive—delivering seamless, high-performance solutions with clean, scalable code. He is a rare talent who combines technical brilliance with strong communication and problem-solving skills.",
+    imgPath: "/portfolio/images/huzaif.jpg",
   },
   {
     name: "Guy Hawkins",
