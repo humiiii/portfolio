@@ -1,6 +1,6 @@
 # 3D Portfolio Website
 
-A modern, interactive 3D portfolio website built with React and Vite. Showcase your projects, skills, and experience with engaging 3D visuals and smooth animations.
+A modern, interactive 3D portfolio website built with React and Vite. To showcase my projects, skills, and experience with engaging 3D visuals and smooth animations.
 
 ## Features
 
